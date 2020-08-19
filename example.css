@@ -1,0 +1,32 @@
+.font-color{
+  color:red;
+  background-color:pink;
+  /* border: 2px dotted black; */
+  /* border-bottom: dotted; */
+  border-top: dotted;
+
+}
+.font-colors{
+  color:blue;
+  margin-top: 120px;
+  background-color: black;
+
+}
+.font-color-pink{
+  color: pink;
+}
+body{
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.scroller {
+  height: 650px;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  
+}
+
+.scroller section {
+  scroll-snap-align: start;
+  display: flex;
+}
